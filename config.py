@@ -20,7 +20,7 @@ import os
 # load_dotenv()
 
 # LOL TOKEN GO BRR
-BOT_TOKEN = os.environ.get("TOKEN")  # your discord bot token
+BOT_TOKEN = os.environ.get("NzIzMTIzNDI1MDczMTY4NDU1.XutDKw.LZFi3IykK2BqDqboF3CHve7mVmU")  # your discord bot token
 BOT_TOKEN_BETA = os.environ.get("TOKEN_BETA")  # the token of the beta bot (optional)
 
 MONGO_DB_URL = os.environ.get("MONGO")  # your mongodb database connection url string
@@ -276,7 +276,7 @@ DISABLE = ['disable', 'disabled', 'no', 'false']
 DEFAULT_WELCOME_MSG = """
 {
     "title": "Welcome",
-    "description": "Yay! {user_mention} has joined our server!",
+    "description": "Herzlich Willkommen {user_mention} auf unserem Server!",
     "color": "MAIN_COLOR",
     "footer": {
         "text": "Invited by {inviter_tag}",
