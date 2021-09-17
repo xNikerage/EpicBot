@@ -20,10 +20,10 @@ import os
 # load_dotenv()
 
 # LOL TOKEN GO BRR
-BOT_TOKEN = os.environ.get("NzIzMTIzNDI1MDczMTY4NDU1.XutDKw.LZFi3IykK2BqDqboF3CHve7mVmU")  # your discord bot token
+BOT_TOKEN = os.environ.get("NzIzMTIzNDI1MDczMTY4NDU1.XutDKw.do8MEqGRho-IWGM8QGP9MvSJVjM")  # your discord bot token
 BOT_TOKEN_BETA = os.environ.get("TOKEN_BETA")  # the token of the beta bot (optional)
 
-MONGO_DB_URL = os.environ.get("MONGO")  # your mongodb database connection url string
+MONGO_DB_URL = os.environ.get("mongodb+srv://xNiKERAGEx:<40054005>@cluster0.r9sjk.mongodb.net")  # your mongodb database connection url string
 MONGO_DB_URL_BETA = os.environ.get("MONGO_BETA")  # database for the beta bot (optional)
 DB_UPDATE_INTERVAL = 60  # the interval at which the database is updated
 
